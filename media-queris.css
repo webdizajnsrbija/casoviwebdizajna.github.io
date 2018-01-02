@@ -1,0 +1,322 @@
+@media only screen and (max-width: 750px) {
+	
+	
+	
+	/*NASLOV NA SLICI*/
+	
+	
+	header h1 {
+		font-size: 1.8em;
+		width: 100%;
+		
+		padding-left:2px;
+		padding-right:2px;
+		height:100vh;
+		background:rgba(0,0,0,0.3);
+		padding-top: 35%;
+		position: absolute;
+		top:0%;
+		left:0%;
+		font-weight:100;
+	    font-family:'arial';
+		line-height: 40px;
+	}
+	
+	hr { 
+	     border : 0;
+         height: 2px;
+         
+         background-image: 
+         linear-gradient(to right, rgba(0,0,0,0), orange, rgba(0, 0, 0, 0)); 
+        }
+	    
+	   
+	    
+	
+	/*TELEFON*/
+	
+	.tel {
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		
+		width: 40%;
+	}
+	.tel a {
+		font-size: 1em;
+		padding:5px;
+		
+	}
+	.button {
+		width: 110px;
+		height:45px;
+		
+		
+	}
+	
+	/*UP BUTTON*/
+	.vrh a {
+		padding: 10px;
+		background: rgba(5, 5, 5, 0.5);
+		position: fixed;
+		right: 10px;
+		bottom: 5px;
+		text-align: center;
+		display: block;
+		font-size: 15px;
+		z-index: 1;
+		color:#ff9933;
+		border:1px solid #ff9933;
+	}
+
+	
+	/*MENI*/
+	
+	nav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.topnav{
+		box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.5);
+	}
+	.topnav a {
+		display: none;
+		
+	}
+	
+	.topnav a:nth-child(2) {
+		/*ABOUT*/
+		display: block;
+		color: white;
+		height:45px;
+		width:110px;
+	}
+	
+	.topnav a:nth-child(6) {
+		/*LOGO*/
+		display: block;
+		float: left;
+		margin-left: 20%;
+		height:45px;
+		width:70px;
+		padding-top:10px;
+	}
+	/*ICON*/
+	.topnav a.icon {
+		float: right;
+		display: block;
+		background:#ff9933;
+		color: white;
+		font-size: 20px;
+		width:45px;
+		height: 45px;
+		padding: 7px 15px;
+		
+	}
+	
+	    
+	    
+	  
+/*RESPONSIVE*/
+   .topnav.responsive {
+		background: none;
+		border: none;
+		box-shadow:none;
+	}
+	
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 45px;
+		width:45px;
+		padding:5px;
+		border:1px solid #ff9933;
+		color:#ff9933;
+		-webkit-box-shadow: none;
+		
+		        box-shadow: none;
+		
+		-webkit-animation: load 0s forwards;
+		
+		        animation: load 0s forwards;
+	}
+	
+    .topnav.responsive a {
+		display: block;
+		text-align: center;
+		width:60%;
+		margin-left:40%;
+	    
+		padding: 10px;
+		
+		float: none;
+		-webkit-box-shadow: 1px 0px 10px 0px black;
+		        box-shadow: 1px 0px 10px 0px black;
+		background:rgb(62,61,61);
+		opacity: 0;
+		
+		-webkit-animation: load 1s forwards;
+		
+		        animation: load 1s forwards;
+		color: #ff9933;
+	}
+  .topnav.responsive a:hover{
+      
+      background:rgba(0,0,0,0.5);
+      border:1px solid #ff9933;
+  }
+	@-webkit-keyframes load {
+		0% {
+		
+			-webkit-transform: translateX(-180px)rotateX(-180deg);
+		
+			        transform: translateX(-180px)rotateX(-180deg);
+		}
+		100% {
+			opacity: 1;
+		
+			-webkit-transform: translateX(0px)rotateX(0deg);
+		
+			        transform: translateX(0px)rotateX(0deg);
+		}
+	}
+
+	@keyframes load {
+		0% {
+		
+			-webkit-transform: translateX(-180px)rotateX(-180deg);
+		
+			        transform: translateX(-180px)rotateX(-180deg);
+		}
+		100% {
+			opacity: 1;
+		
+			-webkit-transform: translateX(0px)rotateX(0deg);
+		
+			        transform: translateX(0px)rotateX(0deg);
+		}
+	}
+	.topnav.responsive a:nth-child(1) {
+		
+		-webkit-animation-delay: 0;
+		
+		        animation-delay: 0;
+	}
+	.topnav.responsive a:nth-child(2) {
+		
+		-webkit-animation-delay: 0.2s;
+		
+		        animation-delay: 0.2s;
+		float: none;
+		background: #ff9933;
+		color: white;
+	}
+	.topnav.responsive a:nth-child(3) {
+	
+		-webkit-animation-delay: 0.4s;
+	
+		        animation-delay: 0.4s;
+		
+	}
+	.topnav.responsive a:nth-child(4) {
+	
+		-webkit-animation-delay: 0.6s;
+	
+		        animation-delay: 0.6s;
+		height: 50px;
+		
+	}
+	.topnav.responsive a:nth-child(6) {
+		display: none;
+	}
+	.topnav.responsive a:nth-child(7) {
+	
+		-webkit-animation-delay: 0.8s;
+	
+		        animation-delay: 0.8s;
+	}
+	.topnav.responsive a:nth-child(8) {
+		
+		-webkit-animation-delay: 1s;
+		
+		        animation-delay: 1s;
+	}
+	.topnav.responsive a:nth-child(9) {
+		-webkit-animation-delay: 1.2s;
+		        animation-delay: 1.2s;
+	}
+	.topnav.responsive a:nth-child(10) {
+		-webkit-animation-delay: 1.4s;
+		        animation-delay: 1.4s;
+	}
+	.topnav.responsive a:nth-child(11) {
+		-webkit-animation-delay: 1.6s;
+		        animation-delay: 1.6s;
+	}
+	form{
+		width:100%;
+		
+	}
+	
+#serach-text{
+	padding:5px;
+	width:120px;
+	
+	
+}
+
+	.about {
+		float: left;
+	}
+
+	.ankor {
+		margin-bottom: 40px;
+		width: 100%;
+		height: 20px;
+	}
+	
+	/*SADRZAJ*/
+	.row {
+		width: 90%;
+		
+	}
+	.row1{
+		width: 90%;
+		display:block;
+		margin:20px auto;
+		padding:0px auto;
+	}
+	.img img{
+	  width:50%;	
+	}
+	
+    
+	
+		
+	
+
+
+	/*FOOTER*/
+	.footer {
+		z-index: -1;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.img img{
+		width: 100%;
+	}
+		/*ABOUT PAGE*/
+
+
+	.omeni{
+		height:800px;
+	   
+	}
+
+}
+
+

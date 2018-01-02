@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+			 <rss version="2.0">
+			  
+			   <channel>
+			      <title>Aktivnosti</title>
+				  <link>http://sajtovistudenata.ict.edu.rs/147_16/index.html</link>
+				  <description>Ovo je portal koji sadrzi vesti</description>
+				  <item>
+				     <title>slike</title>
+				      <link>http://sajtovistudenata.ict.edu.rs/147_16/galerija.html</link>
+				        <description>kratak opis vesti 1</description>
+				 </item>
+				 <item>
+				     <title>mapa</title>
+				      <link>http://sajtovistudenata.ict.edu.rs/147_16/kakodo%C5%A1ume.html</link>
+				        <description>kratak opis vesti 2</description>
+				 </item>
+				  <item>
+				     <title>kontakt</title>
+				      <link>http://sajtovistudenata.ict.edu.rs/147_16/kontakt.html</link>
+				        <description>kratak opis vesti 2</description>
+				 </item>
+				  <item>
+				     <title>O meni</title>
+				      <link>http://sajtovistudenata.ict.edu.rs/147_16/omeni.html</link>
+				        <description>kratak opis vesti 2</description>
+				 </item>
+				 </channel>
+				 </rss> 
